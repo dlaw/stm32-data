@@ -1049,13 +1049,13 @@ fn process_core(
                 if is_adc3 {
                     "ADC3_COMMON"
                 } else {
-                    "ADC_COMMON"
+                    "ADC12_COMMON"
                 }
             } else if chip_name.starts_with("STM32F3") {
                 if is_adc3 {
-                    "ADC3_COMMON"
+                    "ADC34_COMMON"
                 } else {
-                    "ADC_COMMON"
+                    "ADC12_COMMON"
                 }
             } else if chip_name.starts_with("STM32G4") {
                 if is_adc3 {
